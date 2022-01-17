@@ -2,104 +2,77 @@
 <html>
 <head>
   <title>Media Log</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+          background-color: #121212;
+          color: #f0f0f0;
+          font-family: 'Fira Code', monospace;
+      }
+      .log-month {
+          color: #A8C0CE;
+        }
+      .log-day {
+          color: #AAB0B5;
+          padding-left:15px;
+      }
+      .log-item {
+          color: #FFEB4D;
+          padding-left:30px;
+      }
+      ul {
+          list-style:none;
+          margin:0;
+          padding:0;
+      }
+      .item-type-book {
+          color: #003F63;
+      }
+      .item-type-film {
+          color: #9E7D70;
+      }
+      .item-type-shortfilm {
+          color: #BB2020;
+      }
+      .item-type-tv {
+          color: #D1BF91;
+      }
+      .item-type-comic {
+          color: #BEEBE3;
+      }
+      .item-type-theatre {
+          color: #D9D9D9;
+      }
+      .item-type-music {
+          color: #EBCBBE;
+      }
+      .item-type-reread {
+          color: #FEA443;
+      }
+  </style>
 </head>
 <body>
 
 <h1>Media Log 2022</h1>
 
 <p>Key: <strong>(B)</strong> = book | <strong>(F)</strong> = film | <strong>(SF)</strong> = short film | <strong>(T)</strong> = television series | <strong>(P)</strong> = podcast series | <strong>(S)</strong> = screenplay | <strong>(C)</strong> = comic book/graphic novel | <strong>(TH)</strong> = theater performance | <strong>(M)</strong> = musical performance |<strong>[R]</strong> = reread/rewatch/relisten</p>
-
+<p><i>Items added as they are *finished*, i.e a tv series is only added when the last episode is watched.</i></p>
 <!-- Outer List -->
 <ul class="log">
 
-  <li class="log-month">January</li> <!-- Month Item -->
-  <ul> <!-- Day List -->
-    <li class="log-day">1</li> <!-- Day Item -->
-    <ul> <!-- Item List -->
-      <li class="log-item"><em>Citizen Kane</em> (F)</li> <!-- Log Item -->
-    </ul>
-  </ul>
-
-  <li class="log-month">February</li>
+  <li class="log-month">January</li>
   <ul>
-    <li class="log-day">1</li>
+    <li class="log-day">9</li>
     <ul>
-      <li class="log-item"><em></em></li>
+      <li class="log-item"><em>Squid Game</em> <span class="item-type-tv">(T)</span></li>
+    </ul>
+    <li class="log-day">17</li>
+    <ul>
+      <li class="log-item"><em>Mats Jonsson - "När vi var samer"</em> <span class="item-type-book">(B)</span></li>
     </ul>
   </ul>
-
-  <li class="log-month">March</li>
-  <ul>
-    <li class="log-day">1</li>
-    <ul>
-      <li class="log-item"><em></em></li>
-    </ul>
-  </ul>
-
-  <li class="log-month">April</li>
-  <ul>
-    <li class="log-day">1</li>
-    <ul>
-      <li class="log-item"><em></em></li>
-    </ul>
-  </ul>
-
-  <li class="log-month">June</li>
-  <ul>
-    <li class="log-day">1</li>
-    <ul>
-      <li class="log-item"><em></em></li>
-    </ul>
-  </ul>
-
-  <li class="log-month">July</li>
-  <ul>
-    <li class="log-day">1</li>
-    <ul>
-      <li class="log-item"><em></em></li>
-    </ul>
-  </ul>
-
-  <li class="log-month">August</li>
-  <ul>
-    <li class="log-day">1</li>
-    <ul>
-      <li class="log-item"><em></em></li>
-    </ul>
-  </ul>
-
-  <li class="log-month">September</li>
-  <ul>
-    <li class="log-day">1</li>
-    <ul>
-      <li class="log-item"><em></em></li>
-    </ul>
-  </ul>
-
-  <li class="log-month">October</li>
-  <ul>
-    <li class="log-day">1</li>
-    <ul>
-      <li class="log-item"><em></em></li>
-    </ul>
-  </ul>
-
-  <li class="log-month">November</li>
-  <ul>
-    <li class="log-day">1</li>
-    <ul>
-      <li class="log-item"><em></em></li>
-    </ul>
-  </ul>
-
-  <li class="log-month">December</li>
-  <ul>
-    <li class="log-day">1</li>
-    <ul>
-      <li class="log-item"><em></em></li>
-    </ul>
-  </ul>
-
 </ul>
 
 </body>
