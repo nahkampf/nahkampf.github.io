@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Media Log</title>
+  <script src="https://kit.fontawesome.com/56e9d2f314.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&display=swap" rel="stylesheet">
@@ -13,6 +14,8 @@
       }
       .log-month {
           color: #A8C0CE;
+          font-size: 18px;
+          font-weight: bold;
         }
       .log-day {
           color: #AAB0B5;
@@ -21,6 +24,7 @@
       .log-item {
           color: #FFEB4D;
           padding-left:30px;
+          text-shadow: 3px 3px rgba(0, 128, 128, 0.7) ;
       }
       .log-item em:hover {
           background-color: #323232;
@@ -31,31 +35,38 @@
           padding:0;
       }
       .item-type {
-          color: black;
+          color: white;
+          text-shadow: 1px 1px 1px #000;
           border-radius:3px;
           padding:3px;
+          width:22px !important;
+          height:20px;
+          display:inline-block;
+          text-align: center;
+          vertical-align:middle;
+          box-shadow: 2px 2px black;
       }
       .item-type-book {
-          background-color: #B74859;
+          background-color: #81642e;
       }
       .item-type-film {
-        background-color: #70E0B2;
+        background-color: #973c00;
       }
       .item-type-shortfilm {
         background-color: #BB2020;
       }
       .item-type-tv {
-        background-color: #D1BF91;
+        background-color: #36ca43;
       }
       .item-type-comic {
-        background-color: #0F0702;
+        background-color: #272320;
         color: #f0f0f0 !important;
       }
       .item-type-theatre {
         background-color: #EBCBBE;
       }
       .item-type-music {
-        background-color: #EEF277;
+        background-color: #2472cc;
       }
       .item-type-reread {
         background-color: #FEA443;
@@ -67,7 +78,7 @@
         background-color: #f0f0f0;
       }
       .key {
-          font-size:12px;
+          font-size:14px;
       }
   </style>
 </head>
@@ -75,7 +86,16 @@
 
 <h1>Media Log 2022</h1>
 
-<p class="key">Key: <span class="item-type item-type-book">(B)</span> = book | <span class="item-type item-type-film">(F)</span> = film | <span class="item-type item-type-shortfilm">(SF)</span> = short film | <span class="item-type item-type-tv">(T)</span> = television series | <span class="item-type item-type-pod">(P)</span> = podcast series | <span class="item-type item-type-screenplay">(S)</span> = screenplay | <span class="item-type item-type-comic">(C)</span> = comic book/graphic novel | <span class="item-type item-type-theatre">(TH)</span> = theater performance | <span class="item-type item-type-music">(M)</span> = musical performance | <span class="item-type item-type-reread">[R]</span> = reread/rewatch/relisten</p>
+<p class="key">Key:
+    <span class="item-type item-type-book"><i class="fas fa-book"></i></span> = book | 
+    <span class="item-type item-type-film"><i class="fas fa-film"></i></span> = film | 
+    <span class="item-type item-type-shortfilm"><i class="fas fa-video"></i></span> = short film | 
+    <span class="item-type item-type-tv"><i class="fas fa-tv"></i></span> = television series |
+    <span class="item-type item-type-pod"><i class="fas fa-microphone-alt"></i></span> = podcast series | 
+    <span class="item-type item-type-comic"><i class="fas fa-mask"></i></span> = comic book/graphic novel | 
+    <span class="item-type item-type-theatre"><i class="fas fa-theater-masks"></i></span> = theater performance | 
+    <span class="item-type item-type-music"><i class="fas fa-music"></i></span> = musical performance | 
+    <span class="item-type item-type-reread"><i class="fas fa-redo"></i></span> = reread/rewatch/relisten</p>
 <p class="key"><i>Items added as they are *finished*, i.e a tv series is only added when the last episode is watched.</i> ❤️ = good, 😒 = meh, 😡 = bad</p>
 <!-- Outer List -->
 <ul class="log">
@@ -84,15 +104,15 @@
   <ul>
     <li class="log-day">9</li>
     <ul>
-      <li class="log-item"><em>Squid Game</em> ❤️ <span class="item-type item-type-tv">(T)</span></li>
+      <li class="log-item"><span class="item-type item-type-tv"><i class="fas fa-tv"></i></span> ❤️ <em>Squid Game</em></li>
     </ul>
     <li class="log-day">17</li>
     <ul>
-      <li class="log-item"><em>Mats Jonsson - "När vi var samer"</em> ❤️ <span class="item-type item-type-comic">(C)</span></li>
+      <li class="log-item"><span class="item-type item-type-comic"><i class="fas fa-mask"></i></span> ❤️ <em>Mats Jonsson - "När vi var samer"</em></li>
     </ul>
     <li class="log-day">28</li>
     <ul>
-      <li class="log-item"><em>"Så jävla easy going"</em> ❤️ <span class="item-type item-type-film">(C)</span></li>
+      <li class="log-item"><span class="item-type item-type-film"><i class="fas fa-film"></i></span> ❤️ <em>"Så jävla easy going"</em></li>
     </ul>
   </ul>
 
