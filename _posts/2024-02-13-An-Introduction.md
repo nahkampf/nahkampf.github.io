@@ -27,6 +27,7 @@ Here and there, surface teams have placed omnidirectional sensors, that pick up 
 - Parsed signal message. Each signal is essentially a message being transmitted. The scientists at Haven have only just begun to be able to decipher the alien language model, enough to pick out a few "words" in the messages here and there. This part of the game mechanics is also a pattern-matching exercise where players will be looking at chunks of random characters in order to find the few sequences that we have a translation for.
 
 ## The SENSOR station
+![image](/images/sensor.jpg)
 
 So, this is the computer interface that the SENSOR operators will be spending most of their time in (remember, this is a work in progress). The main view has two windows - one contains the list of surface sensors this station is connected to (and their current status - if one is inactive it might mean it has been destroyed or is out of power, often requiring a SURFOPS team to go out and inspect or replace it), and the other window containing a list of all intercepted alien transmissions within range of the sensors.
 
